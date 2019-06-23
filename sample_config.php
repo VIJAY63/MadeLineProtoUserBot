@@ -1,5 +1,5 @@
 <?php
-if (getenv("ENV", true)) {
+if (!getenv("ENV", true)) {
   echo "Using config.php";
   require_once __DIR__ . "/config.php";
 }
