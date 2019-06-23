@@ -1,8 +1,12 @@
 {
-  "require" : {
+  "require": {
     "danog/madelineproto": "dev-master",
     "amphp/dns": "dev-master#aa1892bd as 0.9"
   },
+  "repositories": [{
+    "type": "git",
+    "url": "https://github.com/danog/phpseclib"
+  }],
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
   },

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "15f10e6de5c9f5220454b3ddffe55bc1",
+    "content-hash": "af9fe4be191f3f16e0229e3f67822026",
     "packages": [
         {
             "name": "amphp/amp",
@@ -1780,14 +1780,8 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "84b852933ef15bd7dda7c9feec89834951e7e284"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/84b852933ef15bd7dda7c9feec89834951e7e284",
-                "reference": "84b852933ef15bd7dda7c9feec89834951e7e284",
-                "shasum": ""
+                "url": "https://github.com/danog/phpseclib",
+                "reference": "5e7d39153270dfd19d585504b0a29ac65a62adf9"
             },
             "require": {
                 "paragonie/constant_time_encoding": "^1",
@@ -1815,7 +1809,6 @@
                     "phpseclib\\": "phpseclib/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1867,7 +1860,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2019-06-20T03:36:18+00:00"
+            "time": "2019-06-17T12:03:31+00:00"
         },
         {
             "name": "psr/http-message",
