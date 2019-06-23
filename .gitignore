@@ -1,4 +1,4 @@
 madeline.php
 config.php
 madeline.phar*
-session.madeline*
+*.madeline*
