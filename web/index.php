@@ -10,7 +10,7 @@ if (!file_exists(__DIR__."/../vendor/autoload.php")) {
     }
     include "madeline.php";
 } else {
-    require_once __DIR__ . "../vendor/autoload.php";
+    require_once __DIR__ . "/../vendor/autoload.php";
 }
 
 require_once __DIR__ . "/../config.php";
