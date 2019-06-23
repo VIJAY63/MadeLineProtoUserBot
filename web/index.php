@@ -2,7 +2,7 @@
 ini_set("display_errors", true);
 error_reporting(E_ALL);
 
-if (!file_exists(__DIR__."/vendor/autoload.php")) {
+if (!file_exists(__DIR__."/../vendor/autoload.php")) {
     echo "You did not run composer update, using madeline.php".PHP_EOL;
     define("MADELINE_BRANCH", "");
     if (!file_exists("madeline.php")) {
@@ -10,10 +10,10 @@ if (!file_exists(__DIR__."/vendor/autoload.php")) {
     }
     include "madeline.php";
 } else {
-    require_once "vendor/autoload.php";
+    require_once __DIR__ . "../vendor/autoload.php";
 }
 
-require_once __DIR__ . "/config.php";
+require_once __DIR__ . "/../config.php";
 require_once __DIR__ . "/functions.php";
 require_once __DIR__ . "/EventHandler.php";
 
