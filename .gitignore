@@ -2,3 +2,4 @@ madeline.php
 config.php
 madeline.phar*
 *.madeline*
+vendor/*
