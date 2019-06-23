@@ -1,6 +1,38 @@
 {
   "name": "MLPUB: PHP",
-  "description": "a simple Telegram UserBot to improve TG eXperience",
+  "description": "Modular UserBot powered by @MadeLineProto!",
   "repository": "https://github.com/SpEcHiDe/MadeLineProtoUserBot",
-  "addons": []
+  "logo": "https://telegra.ph/file/6ce444f5ba54d79fb8622.jpg",
+  "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "productivity"
+  ],
+  "website": "https://telegram.dog/MLPUB",
+  "success_url": "https://t.me/MLPUB/5",
+  "addons": [],
+  "buildpacks": [],
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable environment variables.",
+      "value": "ANYTHING"
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": "6"
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": "eb06d4abfb49dc3eeb1aeb98ae0f581e"
+    },
+    "MLP_SESSION_NAME": {
+      "description": "The name that should be used for your session",
+      "value": "USER.madeline"
+    },
+    "COMMAND_HANDLER": {
+      "description": "The prefix that should be used for the commands",
+      "value": "."
+    }
+  }
 }
