@@ -4,7 +4,8 @@
 
 ##### The Easiest Way
 
-~~there is no easy way (yet)~~
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://gitlab.com/Vijay63/MadeLineProtoUserBot)
+
 
 ##### The Legacy Way
 
